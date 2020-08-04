@@ -216,7 +216,7 @@ span {
   background: url(../img/hero-bg.png) center bottom no-repeat;
   background-size: 100%;
   position: relative;
-  margin-top: 40px;
+  margin-top: 60px;
 }
 
 @media (min-width: 1025px) {
@@ -355,7 +355,7 @@ span {
 }
 
 .nav-menu li a{
-  font-size: 16px;
+  font-size: 18px;
 }
 
 .nav-menu > li {
