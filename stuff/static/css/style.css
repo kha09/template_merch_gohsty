@@ -315,7 +315,7 @@ span {
 
 #hero .btns a {
   color: #555;
-  font-size: 11px;
+  font-size: 15px;
   font-weight: 600;
   text-transform: uppercase;
   margin: 4px 20px;
@@ -604,10 +604,11 @@ body.mobile-nav-active #mobile-nav-toggle i {
 }
 
 .section-title h2 {
-  font-family: "Roboto", sans-serif;
+  /*font-family: "Roboto", sans-serif;*/
+  font-family: "Philosopher", sans-serif;
   font-size: 45px;
   font-weight: 100;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
   margin-bottom: 20px;
   text-transform: capitalize;
 }
@@ -618,8 +619,8 @@ body.mobile-nav-active #mobile-nav-toggle i {
 
 .separator {
   color: #626262;
-  font-family: "Roboto", sans-serif;
-  font-size: 15px;
+  font-family: "Philosopher", sans-serif;
+  font-size: 23px;
   font-weight: 300;
   margin-bottom: 30px;
   text-transform: capitalize;
