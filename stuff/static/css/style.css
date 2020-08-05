@@ -213,7 +213,7 @@ span {
 #hero {
   width: 100%;
   height: calc(100vh - 40px);
-  background: url(../img/hero-bg.png) center bottom no-repeat;
+  background: url(../img/hero-fixed3.png) center bottom no-repeat;
   background-size: 100%;
   position: relative;
   margin-top: 60px;
@@ -299,14 +299,17 @@ span {
   border-radius: 50px;
   transition: 0.5s;
   margin-bottom: 30px;
-  border: 2px solid #71c55d;
+  /*border: 2px solid #71c55d;*/
+  border: 2px solid #fc7165;
   background: #fff;
-  color: #71c55d;
+  /*color: #71c55d;*/
+  color: #fc7165;
   text-decoration: none;
 }
 
 #hero .btn-get-started:hover {
-  background: #71c55d;
+  /*background: #71c55d;*/
+  background: #fc7165;
   color: #fff;
 }
 
