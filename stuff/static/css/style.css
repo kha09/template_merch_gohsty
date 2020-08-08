@@ -246,7 +246,8 @@ span {
   line-height: 56px;
   font-family: "Philosopher", sans-serif;
   /*color: #71c55d;*/
-  color: #fc7165;
+  /*color: #fc7165;*/
+  color: #666;
 
 }
 
@@ -292,9 +293,9 @@ span {
 #hero .btn-get-started {
   font-family: "Roboto", sans-serif;
   text-transform: uppercase;
-  font-weight: 400;
-  font-size: 13px;
-  letter-spacing: 1px;
+  font-weight: 700;
+  font-size: 15px;
+  letter-spacing: 0px;
   display: inline-block;
   padding: 11px 36px;
   border-radius: 50px;
@@ -332,7 +333,8 @@ span {
 }
 
 #hero .btns a:hover {
-  color: #71c55d;
+  /*color: #71c55d;*/
+  color: #fc7165;
 }
 
 /*--------------------------------------------------------------
