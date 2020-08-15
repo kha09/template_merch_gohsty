@@ -1333,7 +1333,7 @@ body.mobile-nav-active #mobile-nav-toggle i {
 
 #contact .info {
   color: #222;
-  margin-left: 20px;
+  margin-left: 10px;
 }
 
 #contact .info i {
@@ -1355,7 +1355,7 @@ body.mobile-nav-active #mobile-nav-toggle i {
 
 .fa-phone{
   float: right;
-  margin-top: 10px;
+  margin-top: 5px;
 }
 
 #contact .info p {
@@ -1363,7 +1363,7 @@ body.mobile-nav-active #mobile-nav-toggle i {
   margin-bottom: 20px;
   line-height: 22px;
   font-size: 14px;
-  direction: rtl;
+  direction: ltr;
 }
 
 #contact .info .email p {
@@ -1373,6 +1373,8 @@ body.mobile-nav-active #mobile-nav-toggle i {
 
 #contact .social-links {
   padding-bottom: 20px;
+  padding-top: 40px;
+  margin-left: 20px;
 }
 
 #contact .social-links a {
