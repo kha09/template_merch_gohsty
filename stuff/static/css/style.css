@@ -247,7 +247,7 @@ span {
   font-family: "Philosopher", sans-serif;
   /*color: #71c55d;*/
   /*color: #fc7165;*/
-  color: #666;
+  color: #000;
 
 }
 
@@ -270,7 +270,8 @@ span {
 }
 
 #hero h2 {
-  color: #777;
+  /*color: #777;*/
+  color: #626262;
   margin-bottom: 30px;
   font-size: 20px;
   font-family: "Roboto", sans-serif;
@@ -1332,23 +1333,42 @@ body.mobile-nav-active #mobile-nav-toggle i {
 
 #contact .info {
   color: #222;
+  margin-left: 20px;
 }
 
 #contact .info i {
   font-size: 32px;
   color: #71c55d;
-  float: left;
+  /*float: left;*/
+  float: right;
+}
+
+.fa-map-marker{
+  float: right;
+  margin-top: 20px;
+}
+
+.fa-envelope{
+  float: right;
+  margin-top: 10px;
+}
+
+.fa-phone{
+  float: right;
+  margin-top: 10px;
 }
 
 #contact .info p {
-  padding: 0 0 10px 50px;
+  padding: 0 0 10px 10px;
   margin-bottom: 20px;
   line-height: 22px;
   font-size: 14px;
+  direction: rtl;
 }
 
 #contact .info .email p {
   padding-top: 5px;
+  direction: ltr;
 }
 
 #contact .social-links {
@@ -1358,10 +1378,11 @@ body.mobile-nav-active #mobile-nav-toggle i {
 #contact .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #71c55d;
+  /*background: #71c55d;*/
+  background: #FC7165;
   color: #fff;
   line-height: 1;
-  padding: 6px 0 8px 0;
+  padding: 8px 0 8px 0;
   border-radius: 50%;
   text-align: center;
   width: 36px;
@@ -1370,7 +1391,8 @@ body.mobile-nav-active #mobile-nav-toggle i {
 }
 
 #contact .social-links a:hover {
-  background: #55b03f;
+  /*background: #55b03f;*/
+  background: #ffbcbe;
   color: #fff;
 }
 
@@ -1398,7 +1420,8 @@ body.mobile-nav-active #mobile-nav-toggle i {
 #contact .php-email-form .sent-message {
   display: none;
   color: #fff;
-  background: #18d26e;
+  /*background: #18d26e;*/
+  background: #FC7165;
   text-align: center;
   padding: 15px;
   font-weight: 600;
@@ -1443,7 +1466,8 @@ body.mobile-nav-active #mobile-nav-toggle i {
 }
 
 #contact .php-email-form button[type="submit"] {
-  background: #71c55d;
+  /*background: #71c55d;*/
+  background: #FC7165;
   border: 0;
   padding: 10px 24px;
   color: #fff;
@@ -1451,7 +1475,8 @@ body.mobile-nav-active #mobile-nav-toggle i {
 }
 
 #contact .php-email-form button[type="submit"]:hover {
-  background: #92d283;
+  /*background: #92d283;*/
+  background: #ffbcbe;
 }
 
 @-webkit-keyframes animate-loading {
