@@ -1,818 +1,884 @@
 <!DOCTYPE html>
 {% load static %}
-<html dir="rtl" lang="en">
+<html dir="rtl">
 
 <head>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>eStartup Bootstrap Template - Index</title>
-  <meta content="" name="descriptison">
-  <meta content="" name="keywords">
-
-
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-  <!-- Favicons -->
-  <link href="{% static 'img/favicon.png' %}" rel="icon">
-  <link href="{% static 'img/apple-touch-icon.png' %}" rel="apple-touch-icon">
-
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Roboto:100,300,400,500,700|Philosopher:400,400i,700,700i" rel="stylesheet">
-
-  <!-- Vendor CSS Files -->
-  <link href="{% static 'css/bootstrap.min.css' %}" rel="stylesheet">
-  <link href="{% static 'css/font-awesome.min.css' %}" rel="stylesheet">
-  <link href="{% static 'css/modal-video.min.css' %}" rel="stylesheet">
-  <link href="{% static 'css/owl.carousel.min.css' %}" rel="stylesheet">
-  <link href="{% static 'css/aos.css' %}" rel="stylesheet">
-
-  <!-- Template Main CSS File -->
-  <link href="{% static 'css/style.css' %}" rel="stylesheet">
-
-  <script src="{% static 'js/all.js' %}"></script>
+    <title>eStartup Bootstrap Template - Index</title>
+    <meta content="" name="descriptison">
+    <meta content="" name="keywords">
 
 
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+          integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <!-- Favicons -->
+    <link href="{% static 'img/favicon.png' %}" rel="icon">
+    <link href="{% static 'img/apple-touch-icon.png' %}" rel="apple-touch-icon">
+
+{#    Font Awesome /////////#}
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
+          integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
 
 
-  <!-- Vendor JS Files -->
-  <script src="{% static 'js/jquery.min.js' %}"></script>
-  <script src="{% static 'js/bootstrap.bundle.min.js' %}"></script>
-  <script src="{% static 'js/jquery.easing.min.js' %}"></script>
-{#  <script src="{% static 'js/validate.js' %}"></script>#}
-  <script src="{% static 'js/modal-video.min.js' %}"></script>
-  <script src="{% static 'js/owl.carousel.min.js' %}"></script>
-  <script src="{% static 'js/superfish.min.js' %}"></script>
-  <script src="{% static 'js/hoverIntent.js' %}"></script>
-  <script src="{% static 'js/aos.js' %}"></script>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Roboto:100,300,400,500,700|Philosopher:400,400i,700,700i"
+          rel="stylesheet">
+    {# this one original #}
+    <!-- Vendor CSS Files -->
+    {#  <link href="{% static 'css/bootstrap.min.css' %}" rel="stylesheet">#}
+{#      <link href="{% static 'css/fontawesome.css' %}" rel="stylesheet">#}
+    {#  <link href="{% static 'css/modal-video.min.css' %}" rel="stylesheet">#}
+    {#  <link href="{% static 'css/owl.carousel.min.css' %}" rel="stylesheet">#}
+    {#  <link href="{% static 'css/aos.css' %}" rel="stylesheet">#}
+{#    <link href="{% static 'css/all.css' %}" rel="stylesheet">#}
+    {##}
+    {#  <!-- Template Main CSS File -->#}
+    {#  <link href="{% static 'css/style.css' %}" rel="stylesheet">#}
+    {##}
+    {#  <script src="{% static 'js/all.js' %}"></script>#}
 
-  <!-- Template Main JS File -->
-  <script src="{% static 'js/main.js' %}"></script>
+    <!-- Vendor CSS Files -->
+    <link href="{% static 'assets/vendor/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
+{#      <link href="{% static 'assets/vendor/font-awesome/css/font-awesome.min.css' %}" rel="stylesheet">#}
+{#      <link href="{% static 'assets/vendor/font-awesome/css/fontawesome.css' %}" rel="stylesheet">#}
+    <link href="{% static 'assets/vendor/modal-video/css/modal-video.min.css' %}" rel="stylesheet">
+    <link href="{% static 'assets/vendor/owl.carousel/assets/owl.carousel.min.css' %}" rel="stylesheet">
+    <link href="{% static 'assets/vendor/aos/aos.css' %}" rel="stylesheet">
 
-  <!-- =======================================================
-  * Template Name: eStartup - v2.1.0
-  * Template URL: https://bootstrapmade.com/estartup-bootstrap-landing-page-template/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
+    <!-- Template Main CSS File -->
+    {#  <link href="{% static 'assets/css/style.css' %}" rel="stylesheet">#}
+    <link href="{% static 'css/style.css' %}" rel="stylesheet">
+    <link href="{% static 'css/lity.css' %}" rel="stylesheet">
+
+
+    {#  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>#}
+    {#  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>#}
+    {#  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>#}
+
+    {# this one original#}
+    {#  <!-- Vendor JS Files -->#}
+    {#  <script src="{% static 'js/jquery.min.js' %}"></script>#}
+    {#  <script src="{% static 'js/bootstrap.bundle.min.js' %}"></script>#}
+    {#  <script src="{% static 'js/jquery.easing.min.js' %}"></script>#}
+    {#  <script src="{% static 'js/validate.js' %}"></script>#}
+    {#  <script src="{% static 'js/modal-video.min.js' %}"></script>#}
+    {#  <script src="{% static 'js/owl.carousel.min.js' %}"></script>#}
+    {#  <script src="{% static 'js/superfish.min.js' %}"></script>#}
+    {#  <script src="{% static 'js/hoverIntent.js' %}"></script>#}
+    {#  <script src="{% static 'js/aos.js' %}"></script>#}
+    {##}
+    {#  <!-- Template Main JS File -->#}
+    {#  <script src="{% static 'js/main.js' %}"></script>#}
+
+    <!-- =======================================================
+    * Template Name: eStartup - v2.1.0
+    * Template URL: https://bootstrapmade.com/estartup-bootstrap-landing-page-template/
+    * Author: BootstrapMade.com
+    * License: https://bootstrapmade.com/license/
+    ======================================================== -->
 </head>
 
 <body>
 
- <!-- ======= Header ======= -->
-  <header id="header" class="header">
+<!-- ======= Header ======= -->
+<header id="header" class="header">
     <div class="container">
 
-<!--      <div id="logo" class="pull-right">-->
-<!--        <h1><a href="index.html"><span>G</span>hosty</a></h1>-->
-<!--        &lt;!&ndash; Uncomment below if you prefer to use an image logo &ndash;&gt;-->
-<!--&lt;!&ndash;         <a href="index.html"><img src="{% static 'img/svg/tools.svg'%}" alt="" title="" /></a>&ndash;&gt;-->
-<!--      </div>-->
+        <!--      <div id="logo" class="pull-right">-->
+        <!--        <h1><a href="index.html"><span>G</span>hosty</a></h1>-->
+        <!--        &lt;!&ndash; Uncomment below if you prefer to use an image logo &ndash;&gt;-->
+        <!--&lt;!&ndash;         <a href="index.html"><img src="{% static 'img/svg/tools.svg'%}" alt="" title="" /></a>&ndash;&gt;-->
+        <!--      </div>-->
 
-      <div id="logo" class="pull-right">
-        <!-- Image and text -->
-        <nav id="navlog" class="navbar navbar-light">
-          <a class="navbar-brand" href="#">
-            <img src="{% static 'img2/m3.png' %}" width="150" height="60"
-                 class="d-inline-block align-top" alt="">
-          </a>
-        </nav>
-      </div>
-{#        <span>G</span>hosty#}
+        <div id="logo" class="pull-right">
+            <!-- Image and text -->
+            <nav id="navlog" class="navbar navbar-light">
+                <a class="navbar-brand" href="#">
+                    <img src="{% static 'img2/m3.png' %}" width="150" height="60"
+                         class="d-inline-block align-top" alt="">
+                </a>
+            </nav>
+        </div>
+        {#        <span>G</span>hosty#}
 
-      <nav id="nav-menu-container">
-        <ul class="nav-menu">
-          <li><a href="index.html">تواصل معنا</a></li>
-          <li><a href="#about-us">من نحن</a></li>
-{#          <li><a href="#features">مميزات</a></li>#}
-          <li><a href="#screenshots">الخدمات</a></li>
-{#          <li><a href="#team">الفريق</a></li>#}
-          <li><a href="#pricing">الأسعار</a></li>
-{#          <li class="menu-has-children"><a href="">الأقسام</a>#}
-{#            <ul>#}
-{#              <li><a href="#">Drop Down 1</a></li>#}
-{#              <li><a href="#">Drop Down 3</a></li>#}
-{#              <li><a href="#">Drop Down 4</a></li>#}
-{#              <li><a href="#">Drop Down 5</a></li>#}
-{#            </ul>#}
-{#          </li>#}
-          <li><a href="#blog">معرض الأعمال</a></li>
-          <li class="menu-active"><a href="#contact">الرئيسية</a></li>
-        </ul>
-      </nav><!-- #nav-menu-container -->
+        <nav id="nav-menu-container">
+            <ul class="nav-menu">
+                <li><a href="index.html">تواصل معنا</a></li>
+                <li><a href="#about-us">من نحن</a></li>
+                {#          <li><a href="#features">مميزات</a></li>#}
+                <li><a href="#screenshots">الخدمات</a></li>
+                {#          <li><a href="#team">الفريق</a></li>#}
+                <li><a href="#pricing">الأسعار</a></li>
+                {#          <li class="menu-has-children"><a href="">الأقسام</a>#}
+                {#            <ul>#}
+                {#              <li><a href="#">Drop Down 1</a></li>#}
+                {#              <li><a href="#">Drop Down 3</a></li>#}
+                {#              <li><a href="#">Drop Down 4</a></li>#}
+                {#              <li><a href="#">Drop Down 5</a></li>#}
+                {#            </ul>#}
+                {#          </li>#}
+                <li><a href="#blog">معرض الأعمال</a></li>
+                <li class="menu-active"><a href="#contact">الرئيسية</a></li>
+            </ul>
+        </nav><!-- #nav-menu-container -->
     </div>
-  </header><!-- End Header -->
+</header><!-- End Header -->
 
-  <!-- ======= Hero Section ======= -->
-  <section id="hero">
+<!-- ======= Hero Section ======= -->
+<section id="hero">
     <div class="hero-container" data-aos="fade-in">
-      <h1>Merch Systems and Design</h1>
-      <h2>متخصصون في تصميم وادارة خدمات الطباعة على المنتجات وانشاء المتاجر الشخصية</h2>
-      <img src="{% static 'img2/fixed-4.png' %}" alt="Hero Imgs" data-aos="zoom-out" data-aos-delay="100">
-      <a href="#get-started" class="btn-get-started scrollto">ابدأ هنا</a>
-      <div class="btns">
-{#        <a href="#"><i class="fa fa-telegram fa-3x"></i> Telegram</a>#}
-        <a href="#"><i class="fab fa-telegram"></i> تليجرام</a>
-{#        <a href="#"><i class="fa fa-instagram fa-3x"></i> Instgram</a>#}
-        <a href="#"><i class="fab fa-instagram"></i> انستجرام</a>
-{#        <a href="#"><i class="fa fa-twitter fa-3x"></i> Twitter</a>#}
-        <a href="#"><i class="fab fa-twitter"></i> تويتر</a>
-      </div>
+        <h1>Merch Systems and Design</h1>
+        <h2>متخصصون في تصميم وادارة خدمات الطباعة على المنتجات وانشاء المتاجر الشخصية</h2>
+        <img src="{% static 'img2/fixed-4.png' %}" alt="Hero Imgs" data-aos="zoom-out" data-aos-delay="100">
+        <a href="#get-started" class="btn-get-started scrollto">ابدأ هنا</a>
+        <div class="btns">
+{#            <a href="#"><i class="fa fa-telegram fa-3x"></i> تيليجرام</a>#}
+                    <a href="#"><i class="fab fa-telegram"></i> تليجرام</a>
+            {#        <a href="#"><i class="fa fa-instagram fa-3x"></i> Instgram</a>#}
+            <a href="#"><i class="fab fa-instagram"></i> انستجرام</a>
+            {#        <a href="#"><i class="fa fa-twitter fa-3x"></i> Twitter</a>#}
+            <a href="#"><i class="fab fa-twitter"></i> تويتر</a>
+        </div>
     </div>
-  </section><!-- End Hero Section -->
+</section><!-- End Hero Section -->
 
-  <main id="main">
+<main id="main">
 
-      <!-- ======= Get Started Section ======= -->
-      <section id="get-started" class="padd-section text-center">
+    <!-- ======= Get Started Section ======= -->
+    <section id="get-started" class="padd-section text-center">
 
-          <div class="container" data-aos="fade-up">
-              <div class="section-title text-center">
+        <div class="container" data-aos="fade-up">
+            <div class="section-title text-center">
 
-                  {#          <h2>حلول متاجر متكاملة بتصاميم عصرية</h2>#}
-                  <h2>الطباعة بجودة عالية لجميع المنتجات</h2>
-                  <p class="separator">مع توفير منتجات مختلفة وطباعتها وشحنها للعميل</p>
+                {#          <h2>حلول متاجر متكاملة بتصاميم عصرية</h2>#}
+                <h2>الطباعة بجودة عالية لجميع المنتجات</h2>
+                <p class="separator">مع توفير منتجات مختلفة وطباعتها وشحنها للعميل</p>
 
-              </div>
-          </div>
+            </div>
+        </div>
 
-          <div class="container">
-              <div class="row">
+        <div class="container">
+            <div class="row">
 
-                  <div class="col-md-6 col-lg-4" data-aos="zoom-in" data-aos-delay="100">
-                      <div class="feature-block">
+                <div class="col-md-6 col-lg-4" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="feature-block">
 
-{#                          <img src="{% static 'img/svg/cloud.svg' %}" alt="img" class="img-fluid">#}
-                          <a href="#"><i class="fas fa-tshirt low" ></i></a>
-                          <h4>نحضر المنتج</h4>
-                          <p>متوفر لدينا قائمة واسعة من المنتجات بجودة عالية</p>
-                          <a href="#">معرفة المزيد</a>
+                        {#                          <img src="{% static 'img/svg/cloud.svg' %}" alt="img" class="img-fluid">#}
+                        <a href="#"><i class="fas fa-tshirt low"></i></a>
+                        <h4>نحضر المنتج</h4>
+                        <p>متوفر لدينا قائمة واسعة من المنتجات بجودة عالية</p>
+                        <a href="#">معرفة المزيد</a>
 
-                      </div>
-                  </div>
+                    </div>
+                </div>
 
-                  <div class="col-md-6 col-lg-4" data-aos="zoom-in" data-aos-delay="200">
-                      <div class="feature-block">
+                <div class="col-md-6 col-lg-4" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="feature-block">
 
-{#                          <img src="{% static 'img/svg/planet.svg' %}" alt="img" class="img-fluid">#}
-                          <a href="#"><i class="fas fa-paint-brush low"></i></a>
-                          <h4>نصمم ونطبع</h4>
-                          <p>نوفر تصاميم فريدة حسب الطلب ونطبعها على المنتج</p>
-                          <a href="#">معرفة المزيد</a>
+                        {#                          <img src="{% static 'img/svg/planet.svg' %}" alt="img" class="img-fluid">#}
+                        <a href="#"><i class="fas fa-paint-brush low"></i></a>
+                        <h4>نصمم ونطبع</h4>
+                        <p>نوفر تصاميم فريدة حسب الطلب ونطبعها على المنتج</p>
+                        <a href="#">معرفة المزيد</a>
 
-                      </div>
-                  </div>
+                    </div>
+                </div>
 
-                  <div class="col-md-6 col-lg-4" data-aos="zoom-in" data-aos-delay="300">
-                      <div class="feature-block">
+                <div class="col-md-6 col-lg-4" data-aos="zoom-in" data-aos-delay="300">
+                    <div class="feature-block">
 
-                          {#              <img src="{% static 'img/svg/asteroid.svg' %}" alt="img" class="img-fluid">#}
-{#                          <img class="fas fa-tshirt" alt="img" class="img-fluid">#}
-                          {#              <a <i class="fas fa-tshirt"></i> alt="img" class="img-fluid">#}
-                          <a href="#"><i class="fas fa-shipping-fast low" ></i></a>
-                          <h4>نشحنها للعميل</h4>
-                          <p>شحن المنتجات الى العميل بعد طباعة التصميم مباشرة</p>
-                          <a href="#">معرفة المزيد</a>
+                        {#              <img src="{% static 'img/svg/asteroid.svg' %}" alt="img" class="img-fluid">#}
+                        {#                          <img class="fas fa-tshirt" alt="img" class="img-fluid">#}
+                        {#              <a <i class="fas fa-tshirt"></i> alt="img" class="img-fluid">#}
+                        <a href="#"><i class="fas fa-shipping-fast low"></i></a>
+                        <h4>نشحنها للعميل</h4>
+                        <p>شحن المنتجات الى العميل بعد طباعة التصميم مباشرة</p>
+                        <a href="#">معرفة المزيد</a>
 
-                      </div>
-                  </div>
+                    </div>
+                </div>
 
-              </div>
-          </div>
+            </div>
+        </div>
 
-      </section><!-- End Get Started Section -->
+    </section><!-- End Get Started Section -->
 
     <!-- ======= About Us Section ======= -->
-{#    <section id="about-us" class="about-us padd-section">#}
-{#      <div class="container" data-aos="fade-up">#}
-{#        <div class="row justify-content-center">#}
-{##}
-{#          <div class="col-md-5 col-lg-3">#}
-{#            <img src="{% static 'img/about-img.png' %}" alt="About" data-aos="zoom-in" data-aos-delay="100">#}
-{#          </div>#}
-{##}
-{#          <div class="col-md-7 col-lg-5">#}
-{#            <div class="about-content" data-aos="fade-left" data-aos-delay="100">#}
-{##}
-{#              <h2><span>eStartup</span>UI Design Mobile </h2>#}
-{#              <p>Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat#}
-{#              </p>#}
-{##}
-{#              <ul class="list-unstyled">#}
-{#                <li><i class="fa fa-angle-right"></i>Creative Design</li>#}
-{#                <li><i class="fa fa-angle-right"></i>Retina Ready</li>#}
-{#                <li><i class="fa fa-angle-right"></i>Easy to Use</li>#}
-{#                <li><i class="fa fa-angle-right"></i>Unlimited Features</li>#}
-{#                <li><i class="fa fa-angle-right"></i>Unlimited Features</li>#}
-{#              </ul>#}
-{##}
-{#            </div>#}
-{#          </div>#}
-{##}
-{#        </div>#}
-{#      </div>#}
-{#    </section><!-- End About Us Section -->#}
+    {#    <section id="about-us" class="about-us padd-section">#}
+    {#      <div class="container" data-aos="fade-up">#}
+    {#        <div class="row justify-content-center">#}
+    {##}
+    {#          <div class="col-md-5 col-lg-3">#}
+    {#            <img src="{% static 'img/about-img.png' %}" alt="About" data-aos="zoom-in" data-aos-delay="100">#}
+    {#          </div>#}
+    {##}
+    {#          <div class="col-md-7 col-lg-5">#}
+    {#            <div class="about-content" data-aos="fade-left" data-aos-delay="100">#}
+    {##}
+    {#              <h2><span>eStartup</span>UI Design Mobile </h2>#}
+    {#              <p>Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat#}
+    {#              </p>#}
+    {##}
+    {#              <ul class="list-unstyled">#}
+    {#                <li><i class="fa fa-angle-right"></i>Creative Design</li>#}
+    {#                <li><i class="fa fa-angle-right"></i>Retina Ready</li>#}
+    {#                <li><i class="fa fa-angle-right"></i>Easy to Use</li>#}
+    {#                <li><i class="fa fa-angle-right"></i>Unlimited Features</li>#}
+    {#                <li><i class="fa fa-angle-right"></i>Unlimited Features</li>#}
+    {#              </ul>#}
+    {##}
+    {#            </div>#}
+    {#          </div>#}
+    {##}
+    {#        </div>#}
+    {#      </div>#}
+    {#    </section><!-- End About Us Section -->#}
 
     <!-- ======= Features Section ======= -->
     <section id="features" class="padd-section text-center">
 
-      <div class="container" data-aos="fade-up">
-        <div class="section-title text-center">
-          <h2>مميزات العمل معنا</h2>
-          <p class="separator">نقدم خدماتنا بجودة عالية بسعر أقل ومستعدون للعمل بشراكة ونسبة من المشروع</p>
+        <div class="container" data-aos="fade-up">
+            <div class="section-title text-center">
+                <h2>مميزات العمل معنا</h2>
+                <p class="separator">نقدم خدماتنا بجودة عالية بسعر أقل ومستعدون للعمل بشراكة ونسبة من المشروع</p>
+            </div>
+
+            <div class="row" data-aos="fade-up" data-aos-delay="100">
+
+                <div class="col-md-6 col-lg-3">
+                    <div class="feature-block">
+                        <img src="{% static 'img/svg/paint-palette.svg' %}" alt="img" class="img-fluid">
+                        <h4>ابداع في التصمبم</h4>
+                        <p>لدينا نخبة من المصممين المبدعين قادرين على توفير تصاميم فريدة</p>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-3">
+                    <div class="feature-block">
+                        <img src="{% static 'img/svg/vector.svg' %}" alt="img" class="img-fluid">
+                        <h4>سرعة التنفيذ</h4>
+                        <p>تسليم المنتج بأسرع وقت وبأعلى جودة</p>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-3">
+                    <div class="feature-block">
+                        <img src="{% static 'img/svg/design-tool.svg' %}" alt="img" class="img-fluid">
+                        <h4>نوفر بضائع merchandise</h4>
+                        <p>نوفر منتجات وبضائع مختلفة يمكن استخدامها لطباعة شعارك الخاص عليها</p>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-3">
+                    <div class="feature-block">
+                        <img src="{% static 'img/svg/asteroid.svg' %}" alt="img" class="img-fluid">
+                        <h4>شحن مباشر للمنتجات</h4>
+                        <p>نشحن المنتجات مباشرة للعميل من المصنع بعد الطباعة عليها</p>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-3">
+                    <div class="feature-block">
+                        <img src="{% static 'img/svg/mock02.svg' %}" alt="img" class="img-fluid">
+                        <h4>حلول دفع مختلفة</h4>
+                        <p>نوفر حلول دفع متنوعة مدى - بايبال - ابل - بايبال - فيزا</p>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-3">
+                    <div class="feature-block">
+                        <img src="{% static 'img/svg/cloud-computing.svg' %}" alt="img" class="img-fluid">
+                        <h4>دعم فني</h4>
+                        <p>دعم فني على مدار الساعة لجميع متاجرنا وخدماتنا</p>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-3">
+                    <div class="feature-block">
+                        <img src="{% static 'img/svg/pixel.svg' %}" alt="img" class="img-fluid">
+                        <h4>تصميم فريد لكل متجر</h4>
+                        <p>نوفر تصاميم عصرية لمتاجرنا مع توفير خدمات متكاملة</p>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-3">
+                    <div class="feature-block">
+                        <img src="{% static 'img/svg/code.svg' %}" alt="img" class="img-fluid">
+                        <h4>مستعدون للشراكة</h4>
+                        <p>نرحب بالعمل مع شركاء مقابل نسبة من المشروع</p>
+                    </div>
+                </div>
+
+            </div>
         </div>
-
-        <div class="row" data-aos="fade-up" data-aos-delay="100">
-
-          <div class="col-md-6 col-lg-3">
-            <div class="feature-block">
-              <img src="{% static 'img/svg/paint-palette.svg' %}" alt="img" class="img-fluid">
-              <h4>ابداع في التصمبم</h4>
-              <p>لدينا نخبة من المصممين المبدعين قادرين على توفير تصاميم فريدة</p>
-            </div>
-          </div>
-
-          <div class="col-md-6 col-lg-3">
-            <div class="feature-block">
-              <img src="{% static 'img/svg/vector.svg' %}" alt="img" class="img-fluid">
-              <h4>سرعة التنفيذ</h4>
-              <p>تسليم المنتج بأسرع وقت وبأعلى جودة</p>
-            </div>
-          </div>
-
-          <div class="col-md-6 col-lg-3">
-            <div class="feature-block">
-              <img src="{% static 'img/svg/design-tool.svg' %}" alt="img" class="img-fluid">
-              <h4>نوفر بضائع merchandise</h4>
-              <p>نوفر منتجات وبضائع مختلفة يمكن استخدامها لطباعة شعارك الخاص عليها</p>
-            </div>
-          </div>
-
-          <div class="col-md-6 col-lg-3">
-            <div class="feature-block">
-              <img src="{% static 'img/svg/asteroid.svg' %}" alt="img" class="img-fluid">
-              <h4>شحن مباشر للمنتجات</h4>
-              <p>نشحن المنتجات مباشرة للعميل من المصنع بعد الطباعة عليها</p>
-            </div>
-          </div>
-
-          <div class="col-md-6 col-lg-3">
-            <div class="feature-block">
-              <img src="{% static 'img/svg/mock02.svg' %}" alt="img" class="img-fluid">
-              <h4>حلول دفع مختلفة</h4>
-              <p>نوفر حلول دفع متنوعة مدى - بايبال - ابل - بايبال - فيزا</p>
-            </div>
-          </div>
-
-          <div class="col-md-6 col-lg-3">
-            <div class="feature-block">
-              <img src="{% static 'img/svg/cloud-computing.svg' %}" alt="img" class="img-fluid">
-              <h4>دعم فني</h4>
-              <p>دعم فني على مدار الساعة لجميع متاجرنا وخدماتنا</p>
-            </div>
-          </div>
-
-          <div class="col-md-6 col-lg-3">
-            <div class="feature-block">
-              <img src="{% static 'img/svg/pixel.svg' %}" alt="img" class="img-fluid">
-              <h4>تصميم فريد لكل متجر</h4>
-              <p>نوفر تصاميم عصرية لمتاجرنا مع توفير خدمات متكاملة</p>
-            </div>
-          </div>
-
-          <div class="col-md-6 col-lg-3">
-            <div class="feature-block">
-              <img src="{% static 'img/svg/code.svg' %}" alt="img" class="img-fluid">
-              <h4>مستعدون للشراكة</h4>
-              <p>نرحب بالعمل مع شركاء مقابل نسبة من المشروع</p>
-            </div>
-          </div>
-
-        </div>
-      </div>
     </section><!-- End Features Section -->
 
     <!-- ======= Screenshots Section ======= -->
     <section id="screenshots" class="padd-section text-center">
 
-      <div class="container" data-aos="fade-up">
-        <div class="section-title text-center">
-          <h2>معرض الأعمال</h2>
-{#          <p class="separator">Integer cursus bibendum augue ac cursus .</p>#}
+        <div class="container" data-aos="fade-up">
+            <div class="section-title text-center">
+                <h2>معرض الأعمال</h2>
+                {#          <p class="separator">Integer cursus bibendum augue ac cursus .</p>#}
+            </div>
+
+            <div class="owl-carousel owl-theme" data-aos="fade-up" data-aos-delay="100">
+
+                <div><img src="{% static 'img/svg/mock04.svg' %}" alt="img"></div>
+                <div><img src="{% static 'img/svg/mock05.svg' %}" alt="img"></div>
+                <div><img src="{% static 'img/svg/mock06.svg' %}" alt="img"></div>
+                <div><img src="{% static 'img/svg/mock07.svg' %}" alt="img"></div>
+                <div><img src="{% static 'img/svg/mock08.svg' %}" alt="img"></div>
+                {#          <div><img src="{% static 'img/newsletter-bg.jpg' %}" alt="img"></div>#}
+                {#          <div><img src="{% static 'img/7.jpg' %}" alt="img"></div>#}
+                <div><img src="{% static 'img/svg/mock03.svg' %}" alt="img"></div>
+                <div><img src="{% static 'img/svg/mock02.svg' %}" alt="img"></div>
+
+            </div>
         </div>
-
-        <div class="owl-carousel owl-theme" data-aos="fade-up" data-aos-delay="100">
-
-          <div><img src="{% static 'img/svg/mock04.svg' %}" alt="img"></div>
-          <div><img src="{% static 'img/svg/mock05.svg' %}" alt="img"></div>
-          <div><img src="{% static 'img/svg/mock06.svg' %}" alt="img"></div>
-          <div><img src="{% static 'img/svg/mock07.svg' %}" alt="img"></div>
-          <div><img src="{% static 'img/svg/mock08.svg' %}" alt="img"></div>
-{#          <div><img src="{% static 'img/newsletter-bg.jpg' %}" alt="img"></div>#}
-{#          <div><img src="{% static 'img/7.jpg' %}" alt="img"></div>#}
-          <div><img src="{% static 'img/svg/mock03.svg' %}" alt="img"></div>
-          <div><img src="{% static 'img/svg/mock02.svg' %}" alt="img"></div>
-
-        </div>
-      </div>
 
     </section><!-- End Screenshots Section -->
 
+{#    <!-- ======= Video Section ======= -->#}
+{#    <section id="video" class="text-center">#}
+{#        <div class="overlay">#}
+{#            <div class="container-fluid container-full" data-aos="zoom-in">#}
+{##}
+{#                <div class="row">#}
+{#                    <a href="#" class="js-modal-btn play-btn" data-video-id="s22ViV7tBKE"></a>#}
+{#                </div>#}
+{##}
+{#            </div>#}
+{#        </div>#}
+{#    </section>#}
+{#    #}
+{#    <!-- End Video Section -->#}
+
     <!-- ======= Video Section ======= -->
     <section id="video" class="text-center">
-      <div class="overlay">
-        <div class="container-fluid container-full" data-aos="zoom-in">
+        <div class="overlay">
+            <div class="container-fluid container-full" data-aos="zoom-in">
 
-          <div class="row">
-            <a href="#" class="js-modal-btn play-btn" data-video-id="s22ViV7tBKE"></a>
-          </div>
+                <div class="row">
+                    <a href="https://www.youtube.com/watch?v=OAp8AagsgNw" class="play-btn" data-lity></a>
+                </div>
 
+            </div>
         </div>
-      </div>
     </section><!-- End Video Section -->
 
     <!-- ======= Team Section ======= -->
-{#    <section id="team" class="padd-section text-center">#}
-      {#{##}
-      {#{#      <div class="container" data-aos="fade-up">#}
-      {#{#        <div class="section-title text-center">#}
-      {#{##}
-      {#{#          <h2>Team Member</h2>#}
-      {#{#          <p class="separator">Integer cursus bibendum augue ac cursus .</p>#}
-      {#{#        </div>#}
-      {#{##}
-      {#{#        <div class="row">#}
-      {#{##}
-      {#{#          <div class="col-md-6 col-md-4 col-lg-3" data-aos="zoom-in" data-aos-delay="100">#}
-      {#{#            <div class="team-block bottom">#}
-      {#{#              <img src="assets/img/team/1.jpg" class="img-responsive" alt="img">#}
-      {#{#              <div class="team-content">#}
-      {#{#                <ul class="list-unstyled">#}
-      {#{#                  <li><a href="#"><i class="fa fa-facebook"></i></a></li>#}
-      {#{#                  <li><a href="#"><i class="fa fa-twitter"></i></a></li>#}
-      {#{#                  <li><a href="#"><i class="fa fa-linkedin"></i></a></li>#}
-      {#{#                </ul>#}
-      {#{#                <span>manager</span>#}
-      {#{#                <h4>Kimberly Tran</h4>#}
-      {#{#              </div>#}
-      {#{#            </div>#}
-      {#{#          </div>#}
-      {#{##}
-      {#{#          <div class="col-md-6 col-md-4 col-lg-3" data-aos="zoom-in" data-aos-delay="200">#}
-      {#{#            <div class="team-block bottom">#}
-      {#{#              <img src="assets/img/team/2.jpg" class="img-responsive" alt="img">#}
-      {#{#              <div class="team-content">#}
-      {#{#                <ul class="list-unstyled">#}
-      {#{#                  <li><a href="#"><i class="fa fa-facebook"></i></a></li>#}
-      {#{#                  <li><a href="#"><i class="fa fa-twitter"></i></a></li>#}
-      {#{#                  <li><a href="#"><i class="fa fa-linkedin"></i></a></li>#}
-      {#{#                </ul>#}
-      {#{#                <span>manager</span>#}
-      {#{#                <h4>Kimberly Tran</h4>#}
-      {#{#              </div>#}
-      {#{#            </div>#}
-      {#{#          </div>#}
-      {#{##}
-      {#{#          <div class="col-md-6 col-md-4 col-lg-3" data-aos="zoom-in" data-aos-delay="300">#}
-      {#{#            <div class="team-block bottom">#}
-      {#{#              <img src="assets/img/team/3.jpg" class="img-responsive" alt="img">#}
-      {#{#              <div class="team-content">#}
-      {#{#                <ul class="list-unstyled">#}
-      {#{#                  <li><a href="#"><i class="fa fa-facebook"></i></a></li>#}
-      {#{#                  <li><a href="#"><i class="fa fa-twitter"></i></a></li>#}
-      {#{#                  <li><a href="#"><i class="fa fa-linkedin"></i></a></li>#}
-      {#{#                </ul>#}
-      {#{#                <span>manager</span>#}
-      {#{#                <h4>Kimberly Tran</h4>#}
-      {#{#              </div>#}
-      {#{#            </div>#}
-      {#{#          </div>#}
-      {#{##}
-      {#{#          <div class="col-md-6 col-md-4 col-lg-3" data-aos="zoom-in" data-aos-delay="400">#}
-      {#{#            <div class="team-block bottom">#}
-      {#{#              <img src="assets/img/team/4.jpg" class="img-responsive" alt="img">#}
-      {#{#              <div class="team-content">#}
-      {#{#                <ul class="list-unstyled">#}
-      {#{#                  <li><a href="#"><i class="fa fa-facebook"></i></a></li>#}
-      {#{#                  <li><a href="#"><i class="fa fa-twitter"></i></a></li>#}
-      {#{#                  <li><a href="#"><i class="fa fa-linkedin"></i></a></li>#}
-      {#{#                </ul>#}
-      {#{#                <span>manager</span>#}
-      {#{#                <h4>Kimberly Tran</h4>#}
-      {#{#              </div>#}
-      {#{#            </div>#}
-      {#{#          </div>#}
-      {#{##}
-      {#{#        </div>#}
-      {#{#      </div>#}
-      {#{#    </section><!-- End Team Section -->#}
+    {#    <section id="team" class="padd-section text-center">#}
+    {#{##}
+    {#{#      <div class="container" data-aos="fade-up">#}
+    {#{#        <div class="section-title text-center">#}
+    {#{##}
+    {#{#          <h2>Team Member</h2>#}
+    {#{#          <p class="separator">Integer cursus bibendum augue ac cursus .</p>#}
+    {#{#        </div>#}
+    {#{##}
+    {#{#        <div class="row">#}
+    {#{##}
+    {#{#          <div class="col-md-6 col-md-4 col-lg-3" data-aos="zoom-in" data-aos-delay="100">#}
+    {#{#            <div class="team-block bottom">#}
+    {#{#              <img src="assets/img/team/1.jpg" class="img-responsive" alt="img">#}
+    {#{#              <div class="team-content">#}
+    {#{#                <ul class="list-unstyled">#}
+    {#{#                  <li><a href="#"><i class="fa fa-facebook"></i></a></li>#}
+    {#{#                  <li><a href="#"><i class="fa fa-twitter"></i></a></li>#}
+    {#{#                  <li><a href="#"><i class="fa fa-linkedin"></i></a></li>#}
+    {#{#                </ul>#}
+    {#{#                <span>manager</span>#}
+    {#{#                <h4>Kimberly Tran</h4>#}
+    {#{#              </div>#}
+    {#{#            </div>#}
+    {#{#          </div>#}
+    {#{##}
+    {#{#          <div class="col-md-6 col-md-4 col-lg-3" data-aos="zoom-in" data-aos-delay="200">#}
+    {#{#            <div class="team-block bottom">#}
+    {#{#              <img src="assets/img/team/2.jpg" class="img-responsive" alt="img">#}
+    {#{#              <div class="team-content">#}
+    {#{#                <ul class="list-unstyled">#}
+    {#{#                  <li><a href="#"><i class="fa fa-facebook"></i></a></li>#}
+    {#{#                  <li><a href="#"><i class="fa fa-twitter"></i></a></li>#}
+    {#{#                  <li><a href="#"><i class="fa fa-linkedin"></i></a></li>#}
+    {#{#                </ul>#}
+    {#{#                <span>manager</span>#}
+    {#{#                <h4>Kimberly Tran</h4>#}
+    {#{#              </div>#}
+    {#{#            </div>#}
+    {#{#          </div>#}
+    {#{##}
+    {#{#          <div class="col-md-6 col-md-4 col-lg-3" data-aos="zoom-in" data-aos-delay="300">#}
+    {#{#            <div class="team-block bottom">#}
+    {#{#              <img src="assets/img/team/3.jpg" class="img-responsive" alt="img">#}
+    {#{#              <div class="team-content">#}
+    {#{#                <ul class="list-unstyled">#}
+    {#{#                  <li><a href="#"><i class="fa fa-facebook"></i></a></li>#}
+    {#{#                  <li><a href="#"><i class="fa fa-twitter"></i></a></li>#}
+    {#{#                  <li><a href="#"><i class="fa fa-linkedin"></i></a></li>#}
+    {#{#                </ul>#}
+    {#{#                <span>manager</span>#}
+    {#{#                <h4>Kimberly Tran</h4>#}
+    {#{#              </div>#}
+    {#{#            </div>#}
+    {#{#          </div>#}
+    {#{##}
+    {#{#          <div class="col-md-6 col-md-4 col-lg-3" data-aos="zoom-in" data-aos-delay="400">#}
+    {#{#            <div class="team-block bottom">#}
+    {#{#              <img src="assets/img/team/4.jpg" class="img-responsive" alt="img">#}
+    {#{#              <div class="team-content">#}
+    {#{#                <ul class="list-unstyled">#}
+    {#{#                  <li><a href="#"><i class="fa fa-facebook"></i></a></li>#}
+    {#{#                  <li><a href="#"><i class="fa fa-twitter"></i></a></li>#}
+    {#{#                  <li><a href="#"><i class="fa fa-linkedin"></i></a></li>#}
+    {#{#                </ul>#}
+    {#{#                <span>manager</span>#}
+    {#{#                <h4>Kimberly Tran</h4>#}
+    {#{#              </div>#}
+    {#{#            </div>#}
+    {#{#          </div>#}
+    {#{##}
+    {#{#        </div>#}
+    {#{#      </div>#}
+    {#{#    </section><!-- End Team Section -->#}
 
     <!-- ======= Testimonials Section ======= -->
     <section id="testimonials" class="padd-section text-center">
-      <div class="container" data-aos="fade-up">
-        <div class="row justify-content-center">
+        <div class="container" data-aos="fade-up">
+            <div class="row justify-content-center">
 
-          <div class="col-md-8">
+                <div class="col-md-8">
 
-            <div class="testimonials-content">
-              <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                    <div class="testimonials-content">
+                        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
 
-                <div class="carousel-inner" role="listbox">
+                            <div class="carousel-inner" role="listbox">
 
-                  <div class="carousel-item  active">
-                    <div class="top-top">
+                                <div class="carousel-item  active">
+                                    <div class="top-top">
 
-                      <h2>Our Users Speack volumes us</h2>
-                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type
-                        specimen book. It has survived not only five centuries.</p>
-                      <h4>Kimberly Tran<span>manager</span></h4>
+                                        <h2>Our Users Speack volumes us</h2>
+                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                            Lorem Ipsum has been the industry's standard dummy text ever since the
+                                            1500s, when an unknown printer took a galley of type and scrambled it to
+                                            make a type
+                                            specimen book. It has survived not only five centuries.</p>
+                                        <h4>Kimberly Tran<span>manager</span></h4>
 
+                                    </div>
+                                </div>
+
+                                <div class="carousel-item ">
+                                    <div class="top-top">
+
+                                        <h2>Our Users Speack volumes us</h2>
+                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                            Lorem Ipsum has been the industry's standard dummy text ever since the
+                                            1500s, when an unknown printer took a galley of type and scrambled it to
+                                            make a type
+                                            specimen book. It has survived not only five centuries.</p>
+                                        <h4>Henderson<span>manager</span></h4>
+
+                                    </div>
+                                </div>
+
+                                <div class="carousel-item ">
+                                    <div class="top-top">
+
+                                        <h2>Our Users Speack volumes us</h2>
+                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                            Lorem Ipsum has been the industry's standard dummy text ever since the
+                                            1500s, when an unknown printer took a galley of type and scrambled it to
+                                            make a type
+                                            specimen book. It has survived not only five centuries.</p>
+                                        <h4>David Spark<span>manager</span></h4>
+
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="btm-btm">
+
+                                <ul class="list-unstyled carousel-indicators">
+                                    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                                    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                                    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                                </ul>
+
+                            </div>
+
+                        </div>
                     </div>
-                  </div>
-
-                  <div class="carousel-item ">
-                    <div class="top-top">
-
-                      <h2>Our Users Speack volumes us</h2>
-                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type
-                        specimen book. It has survived not only five centuries.</p>
-                      <h4>Henderson<span>manager</span></h4>
-
-                    </div>
-                  </div>
-
-                  <div class="carousel-item ">
-                    <div class="top-top">
-
-                      <h2>Our Users Speack volumes us</h2>
-                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type
-                        specimen book. It has survived not only five centuries.</p>
-                      <h4>David Spark<span>manager</span></h4>
-
-                    </div>
-                  </div>
-
                 </div>
 
-                <div class="btm-btm">
-
-                  <ul class="list-unstyled carousel-indicators">
-                    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-                    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-                    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-                  </ul>
-
-                </div>
-
-              </div>
             </div>
-          </div>
-
         </div>
-      </div>
     </section><!-- End Testimonials Section -->
 
     <!-- ======= Pricing Section ======= -->
-<!--    <section id="pricing" class="padd-section text-cente">-->
+    <!--    <section id="pricing" class="padd-section text-cente">-->
 
-<!--      <div class="container" data-aos="fade-up">-->
-<!--        <div class="section-title text-center">-->
+    <!--      <div class="container" data-aos="fade-up">-->
+    <!--        <div class="section-title text-center">-->
 
-<!--          <h2>Meet With Price</h2>-->
-<!--          <p class="separator">Integer cursus bibendum augue ac cursus .</p>-->
-<!--        </div>-->
+    <!--          <h2>Meet With Price</h2>-->
+    <!--          <p class="separator">Integer cursus bibendum augue ac cursus .</p>-->
+    <!--        </div>-->
 
-<!--        <div class="row" data-aos="fade-up" data-aos-delay="100">-->
+    <!--        <div class="row" data-aos="fade-up" data-aos-delay="100">-->
 
-<!--          <div class="col-md-6 col-lg-3">-->
-<!--            <div class="block-pricing">-->
-<!--              <div class="table">-->
-<!--                <h4>basic</h4>-->
-<!--                <h2>$29</h2>-->
-<!--                <ul class="list-unstyled">-->
-<!--                  <li><b>4 GB</b> Ram</li>-->
-<!--                  <li><b>7/24</b> Tech Support</li>-->
-<!--                  <li><b>40 GB</b> SSD Cloud Storage</li>-->
-<!--                  <li>Monthly Backups</li>-->
-<!--                  <li>Palo Protection</li>-->
-<!--                </ul>-->
-<!--                <div class="table_btn">-->
-<!--                  <a href="#" class="btn"><i class="fa fa-shopping-cart"></i> Buy Now</a>-->
-<!--                </div>-->
-<!--              </div>-->
-<!--            </div>-->
-<!--          </div>-->
+    <!--          <div class="col-md-6 col-lg-3">-->
+    <!--            <div class="block-pricing">-->
+    <!--              <div class="table">-->
+    <!--                <h4>basic</h4>-->
+    <!--                <h2>$29</h2>-->
+    <!--                <ul class="list-unstyled">-->
+    <!--                  <li><b>4 GB</b> Ram</li>-->
+    <!--                  <li><b>7/24</b> Tech Support</li>-->
+    <!--                  <li><b>40 GB</b> SSD Cloud Storage</li>-->
+    <!--                  <li>Monthly Backups</li>-->
+    <!--                  <li>Palo Protection</li>-->
+    <!--                </ul>-->
+    <!--                <div class="table_btn">-->
+    <!--                  <a href="#" class="btn"><i class="fa fa-shopping-cart"></i> Buy Now</a>-->
+    <!--                </div>-->
+    <!--              </div>-->
+    <!--            </div>-->
+    <!--          </div>-->
 
-<!--          <div class="col-md-6 col-lg-3">-->
-<!--            <div class="block-pricing">-->
-<!--              <div class="table">-->
-<!--                <h4>PERSONAL</h4>-->
-<!--                <h2>$29</h2>-->
-<!--                <ul class="list-unstyled">-->
-<!--                  <li><b>4 GB</b> Ram</li>-->
-<!--                  <li><b>7/24</b> Tech Support</li>-->
-<!--                  <li><b>40 GB</b> SSD Cloud Storage</li>-->
-<!--                  <li>Monthly Backups</li>-->
-<!--                  <li>Palo Protection</li>-->
-<!--                </ul>-->
-<!--                <div class="table_btn">-->
-<!--                  <a href="#" class="btn"><i class="fa fa-shopping-cart"></i> Buy Now</a>-->
-<!--                </div>-->
-<!--              </div>-->
-<!--            </div>-->
-<!--          </div>-->
+    <!--          <div class="col-md-6 col-lg-3">-->
+    <!--            <div class="block-pricing">-->
+    <!--              <div class="table">-->
+    <!--                <h4>PERSONAL</h4>-->
+    <!--                <h2>$29</h2>-->
+    <!--                <ul class="list-unstyled">-->
+    <!--                  <li><b>4 GB</b> Ram</li>-->
+    <!--                  <li><b>7/24</b> Tech Support</li>-->
+    <!--                  <li><b>40 GB</b> SSD Cloud Storage</li>-->
+    <!--                  <li>Monthly Backups</li>-->
+    <!--                  <li>Palo Protection</li>-->
+    <!--                </ul>-->
+    <!--                <div class="table_btn">-->
+    <!--                  <a href="#" class="btn"><i class="fa fa-shopping-cart"></i> Buy Now</a>-->
+    <!--                </div>-->
+    <!--              </div>-->
+    <!--            </div>-->
+    <!--          </div>-->
 
-<!--          <div class="col-md-6 col-lg-3">-->
-<!--            <div class="block-pricing">-->
-<!--              <div class="table">-->
-<!--                <h4>BUSINESS</h4>-->
-<!--                <h2>$29</h2>-->
-<!--                <ul class="list-unstyled">-->
-<!--                  <li><b>4 GB</b> Ram</li>-->
-<!--                  <li><b>7/24</b> Tech Support</li>-->
-<!--                  <li><b>40 GB</b> SSD Cloud Storage</li>-->
-<!--                  <li>Monthly Backups</li>-->
-<!--                  <li>Palo Protection</li>-->
-<!--                </ul>-->
-<!--                <div class="table_btn">-->
-<!--                  <a href="#" class="btn"><i class="fa fa-shopping-cart"></i> Buy Now</a>-->
-<!--                </div>-->
-<!--              </div>-->
-<!--            </div>-->
-<!--          </div>-->
+    <!--          <div class="col-md-6 col-lg-3">-->
+    <!--            <div class="block-pricing">-->
+    <!--              <div class="table">-->
+    <!--                <h4>BUSINESS</h4>-->
+    <!--                <h2>$29</h2>-->
+    <!--                <ul class="list-unstyled">-->
+    <!--                  <li><b>4 GB</b> Ram</li>-->
+    <!--                  <li><b>7/24</b> Tech Support</li>-->
+    <!--                  <li><b>40 GB</b> SSD Cloud Storage</li>-->
+    <!--                  <li>Monthly Backups</li>-->
+    <!--                  <li>Palo Protection</li>-->
+    <!--                </ul>-->
+    <!--                <div class="table_btn">-->
+    <!--                  <a href="#" class="btn"><i class="fa fa-shopping-cart"></i> Buy Now</a>-->
+    <!--                </div>-->
+    <!--              </div>-->
+    <!--            </div>-->
+    <!--          </div>-->
 
-<!--          <div class="col-md-6 col-lg-3">-->
-<!--            <div class="block-pricing">-->
-<!--              <div class="table">-->
-<!--                <h4>profeesional</h4>-->
-<!--                <h2>$29</h2>-->
-<!--                <ul class="list-unstyled">-->
-<!--                  <li><b>4 GB</b> Ram</li>-->
-<!--                  <li><b>7/24</b> Tech Support</li>-->
-<!--                  <li><b>40 GB</b> SSD Cloud Storage</li>-->
-<!--                  <li>Monthly Backups</li>-->
-<!--                  <li>Palo Protection</li>-->
-<!--                </ul>-->
-<!--                <div class="table_btn">-->
-<!--                  <a href="#" class="btn"><i class="fa fa-shopping-cart"></i> Buy Now</a>-->
-<!--                </div>-->
-<!--              </div>-->
-<!--            </div>-->
-<!--          </div>-->
-<!--        </div>-->
-<!--      </div>-->
-<!--    </section>&lt;!&ndash; End Pricing Section &ndash;&gt;-->
+    <!--          <div class="col-md-6 col-lg-3">-->
+    <!--            <div class="block-pricing">-->
+    <!--              <div class="table">-->
+    <!--                <h4>profeesional</h4>-->
+    <!--                <h2>$29</h2>-->
+    <!--                <ul class="list-unstyled">-->
+    <!--                  <li><b>4 GB</b> Ram</li>-->
+    <!--                  <li><b>7/24</b> Tech Support</li>-->
+    <!--                  <li><b>40 GB</b> SSD Cloud Storage</li>-->
+    <!--                  <li>Monthly Backups</li>-->
+    <!--                  <li>Palo Protection</li>-->
+    <!--                </ul>-->
+    <!--                <div class="table_btn">-->
+    <!--                  <a href="#" class="btn"><i class="fa fa-shopping-cart"></i> Buy Now</a>-->
+    <!--                </div>-->
+    <!--              </div>-->
+    <!--            </div>-->
+    <!--          </div>-->
+    <!--        </div>-->
+    <!--      </div>-->
+    <!--    </section>&lt;!&ndash; End Pricing Section &ndash;&gt;-->
 
     <!-- ======= Blog Section ======= -->
-{#    <section id="blog" class="padd-section">#}
-{##}
-{#      <div class="container" data-aos="fade-up">#}
-{#        <div class="section-title text-center">#}
-{##}
-{#          <h2>Latest posts</h2>#}
-{#          <p class="separator">Integer cursus bibendum augue ac cursus .</p>#}
-{#        </div>#}
-{##}
-{#        <div class="row" data-aos="fade-up" data-aos-delay="100">#}
-{##}
-{#          <div class="col-md-6 col-lg-4">#}
-{#            <div class="block-blog text-left">#}
-{#              <a href="#"><img src="{% static 'img/blog-image-1.jpg' %}" alt="img"></a>#}
-{#              <div class="content-blog">#}
-{#                <h4><a href="#">whats isthe difference between good and bat typography</a></h4>#}
-{#                <span>05, juin 2017</span>#}
-{#                <a class="pull-right readmore" href="#">read more</a>#}
-{#              </div>#}
-{#            </div>#}
-{#          </div>#}
-{##}
-{#          <div class="col-md-6 col-lg-4">#}
-{#            <div class="block-blog text-left">#}
-{#              <a href="#"><img src="{% static 'img/blog-image-2.jpg' %}" class="img-responsive" alt="img"></a>#}
-{#              <div class="content-blog">#}
-{#                <h4><a href="#">whats isthe difference between good and bat typography</a></h4>#}
-{#                <span>05, juin 2017</span>#}
-{#                <a class="pull-right readmore" href="#">read more</a>#}
-{#              </div>#}
-{#            </div>#}
-{#          </div>#}
-{##}
-{#          <div class="col-md-6 col-lg-4">#}
-{#            <div class="block-blog text-left">#}
-{#              <a href="#"><img src="{% static 'img/blog-image-3.jpg' %}" class="img-responsive" alt="img"></a>#}
-{#              <div class="content-blog">#}
-{#                <h4><a href="#">whats isthe difference between good and bat typography</a></h4>#}
-{#                <span>05, juin 2017</span>#}
-{#                <a class="pull-right readmore" href="#">read more</a>#}
-{#              </div>#}
-{#            </div>#}
-{#          </div>#}
-{##}
-{#        </div>#}
-{#      </div>#}
-{#    </section><!-- End Blog Section -->#}
+    {#    <section id="blog" class="padd-section">#}
+    {##}
+    {#      <div class="container" data-aos="fade-up">#}
+    {#        <div class="section-title text-center">#}
+    {##}
+    {#          <h2>Latest posts</h2>#}
+    {#          <p class="separator">Integer cursus bibendum augue ac cursus .</p>#}
+    {#        </div>#}
+    {##}
+    {#        <div class="row" data-aos="fade-up" data-aos-delay="100">#}
+    {##}
+    {#          <div class="col-md-6 col-lg-4">#}
+    {#            <div class="block-blog text-left">#}
+    {#              <a href="#"><img src="{% static 'img/blog-image-1.jpg' %}" alt="img"></a>#}
+    {#              <div class="content-blog">#}
+    {#                <h4><a href="#">whats isthe difference between good and bat typography</a></h4>#}
+    {#                <span>05, juin 2017</span>#}
+    {#                <a class="pull-right readmore" href="#">read more</a>#}
+    {#              </div>#}
+    {#            </div>#}
+    {#          </div>#}
+    {##}
+    {#          <div class="col-md-6 col-lg-4">#}
+    {#            <div class="block-blog text-left">#}
+    {#              <a href="#"><img src="{% static 'img/blog-image-2.jpg' %}" class="img-responsive" alt="img"></a>#}
+    {#              <div class="content-blog">#}
+    {#                <h4><a href="#">whats isthe difference between good and bat typography</a></h4>#}
+    {#                <span>05, juin 2017</span>#}
+    {#                <a class="pull-right readmore" href="#">read more</a>#}
+    {#              </div>#}
+    {#            </div>#}
+    {#          </div>#}
+    {##}
+    {#          <div class="col-md-6 col-lg-4">#}
+    {#            <div class="block-blog text-left">#}
+    {#              <a href="#"><img src="{% static 'img/blog-image-3.jpg' %}" class="img-responsive" alt="img"></a>#}
+    {#              <div class="content-blog">#}
+    {#                <h4><a href="#">whats isthe difference between good and bat typography</a></h4>#}
+    {#                <span>05, juin 2017</span>#}
+    {#                <a class="pull-right readmore" href="#">read more</a>#}
+    {#              </div>#}
+    {#            </div>#}
+    {#          </div>#}
+    {##}
+    {#        </div>#}
+    {#      </div>#}
+    {#    </section><!-- End Blog Section -->#}
 
     <!-- ======= Newsletter Section ======= -->
-<!--    <section id="newsletter" class="newsletter text-center">-->
-<!--      <div class="overlay padd-section">-->
-<!--        <div class="container" data-aos="zoom-in">-->
+    <!--    <section id="newsletter" class="newsletter text-center">-->
+    <!--      <div class="overlay padd-section">-->
+    <!--        <div class="container" data-aos="zoom-in">-->
 
-<!--          <div class="row justify-content-center">-->
-<!--            <div class="col-md-9 col-lg-6">-->
-<!--              <form class="form-inline" method="POST" action="#">-->
+    <!--          <div class="row justify-content-center">-->
+    <!--            <div class="col-md-9 col-lg-6">-->
+    <!--              <form class="form-inline" method="POST" action="#">-->
 
-<!--                <input type="email" class="form-control " placeholder="Email Adress" name="email">-->
-<!--                <button type="submit" class="btn btn-default"><i class="fa fa-location-arrow"></i>Subscribe</button>-->
+    <!--                <input type="email" class="form-control " placeholder="Email Adress" name="email">-->
+    <!--                <button type="submit" class="btn btn-default"><i class="fa fa-location-arrow"></i>Subscribe</button>-->
 
-<!--              </form>-->
+    <!--              </form>-->
 
-<!--            </div>-->
-<!--          </div>-->
+    <!--            </div>-->
+    <!--          </div>-->
 
-<!--          <ul class="list-unstyled">-->
-<!--            <li><a href="#"><i class="fa fa-facebook"></i></a></li>-->
-<!--            <li><a href="#"><i class="fa fa-twitter"></i></a></li>-->
-<!--            <li><a href="#"><i class="fa fa-google-plus"></i></a></li>-->
-<!--            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>-->
-<!--          </ul>-->
+    <!--          <ul class="list-unstyled">-->
+    <!--            <li><a href="#"><i class="fa fa-facebook"></i></a></li>-->
+    <!--            <li><a href="#"><i class="fa fa-twitter"></i></a></li>-->
+    <!--            <li><a href="#"><i class="fa fa-google-plus"></i></a></li>-->
+    <!--            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>-->
+    <!--          </ul>-->
 
-<!--        </div>-->
-<!--      </div>-->
-<!--    </section>&lt;!&ndash; End Newsletter Section &ndash;&gt;-->
+    <!--        </div>-->
+    <!--      </div>-->
+    <!--    </section>&lt;!&ndash; End Newsletter Section &ndash;&gt;-->
 
     <!-- ======= Contact Section ======= -->
     <section id="contact" class="padd-section">
 
-      <div class="container" data-aos="fade-up">
-        <div class="section-title text-center">
-          <h2>للتواصل معنا</h2>
-          <p class="separator">تواصل معنا للاستفسار عن خدماتنا واسعارنا</p>
+        <div class="container" data-aos="fade-up">
+            <div class="section-title text-center">
+                <h2>للتواصل معنا</h2>
+                <p class="separator">تواصل معنا للاستفسار عن خدماتنا واسعارنا</p>
+            </div>
+
+            <div class="row justify-content-center" data-aos="fade-up" data-aos-delay="100">
+
+                <div class="col-lg-3 col-md-4">
+
+                    <div class="info">
+                        <div>
+                            <i class="fa fa-map-marker"></i>
+                            <p>شارع التحلية 1080<br>جدة، المملكة العربية السعودية</p>
+                        </div>
+
+                        <div class="email">
+                            <i class="fa fa-envelope"></i>
+                            <p>info@example.com</p>
+                        </div>
+
+                        <div>
+                            <i class="fa fa-phone"></i>
+                            <p>+966 53333333</p>
+                        </div>
+                    </div>
+
+                    <div class="social-links">
+                        <a href="#" class="twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="facebook"><i class="fab fa-facebook"></i></a>
+                        <a href="#" class="instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="google-plus"><i class="fab fa-google-plus"></i></a>
+                        <a href="#" class="linkedin"><i class="fab fa-linkedin"></i></a>
+                    </div>
+
+                </div>
+
+                <div class="col-lg-5 col-md-8">
+                    <div class="form">
+                        <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+                            <div class="form-group">
+                                <input type="text" name="name" class="form-control" id="name" placeholder="Your Name"
+                                       data-rule="minlen:4" data-msg="Please enter at least 4 chars"/>
+                                <div class="validate"></div>
+                            </div>
+                            <div class="form-group">
+                                <input type="email" class="form-control" name="email" id="email"
+                                       placeholder="Your Email" data-rule="email"
+                                       data-msg="Please enter a valid email"/>
+                                <div class="validate"></div>
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control" name="subject" id="subject"
+                                       placeholder="Subject" data-rule="minlen:4"
+                                       data-msg="Please enter at least 8 chars of subject"/>
+                                <div class="validate"></div>
+                            </div>
+                            <div class="form-group">
+                                <textarea class="form-control" name="message" rows="5" data-rule="required"
+                                          data-msg="Please write something for us" placeholder="Message"></textarea>
+                                <div class="validate"></div>
+                            </div>
+                            <div class="mb-3">
+                                <div class="loading">Loading</div>
+                                <div class="error-message"></div>
+                                <div class="sent-message">Your message has been sent. Thank you!</div>
+                            </div>
+                            <div class="text-center">
+                                <button type="submit">ارسل</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
         </div>
-
-        <div class="row justify-content-center" data-aos="fade-up" data-aos-delay="100">
-
-          <div class="col-lg-3 col-md-4">
-
-            <div class="info">
-              <div>
-                <i class="fa fa-map-marker"></i>
-                <p>شارع التحلية 1080<br>جدة، المملكة العربية السعودية</p>
-              </div>
-
-              <div class="email">
-                <i class="fa fa-envelope"></i>
-                <p>info@example.com</p>
-              </div>
-
-              <div>
-                <i class="fa fa-phone"></i>
-                <p>+966 53333333</p>
-              </div>
-            </div>
-
-            <div class="social-links">
-              <a href="#" class="twitter"><i class="fab fa-twitter"></i></a>
-              <a href="#" class="facebook"><i class="fab fa-facebook"></i></a>
-              <a href="#" class="instagram"><i class="fab fa-instagram"></i></a>
-              <a href="#" class="google-plus"><i class="fab fa-google-plus"></i></a>
-              <a href="#" class="linkedin"><i class="fab fa-linkedin"></i></a>
-            </div>
-
-          </div>
-
-          <div class="col-lg-5 col-md-8">
-            <div class="form">
-              <form action="forms/contact.php" method="post" role="form" class="php-email-form">
-                <div class="form-group">
-                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
-                  <div class="validate"></div>
-                </div>
-                <div class="form-group">
-                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
-                  <div class="validate"></div>
-                </div>
-                <div class="form-group">
-                  <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
-                  <div class="validate"></div>
-                </div>
-                <div class="form-group">
-                  <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
-                  <div class="validate"></div>
-                </div>
-                <div class="mb-3">
-                  <div class="loading">Loading</div>
-                  <div class="error-message"></div>
-                  <div class="sent-message">Your message has been sent. Thank you!</div>
-                </div>
-                <div class="text-center"><button type="submit">ارسل</button></div>
-              </form>
-            </div>
-          </div>
-        </div>
-      </div>
     </section><!-- End Contact Section -->
 
-  </main><!-- End #main -->
+</main><!-- End #main -->
 
-  <!-- ======= Footer ======= -->
-  <footer class="footer">
+<!-- ======= Footer ======= -->
+<footer class="footer">
     <div class="container">
-      <div class="row">
+        <div class="row">
 
-        <div class="col-md-12 col-lg-4">
-          <div class="footer-logo">
+            <div class="col-md-12 col-lg-4">
+                <div class="footer-logo">
 
-            <a class="navbar-brand" href="#">Merch</a>
-            <p>متخصصون في تصميم وادارة خدمات الطباعة على المنتجات وانشاء المتاجر الشخصية</p>
+                    <a class="navbar-brand" href="#">Merch</a>
+                    <p>متخصصون في تصميم وادارة خدمات الطباعة على المنتجات وانشاء المتاجر الشخصية</p>
 
-          </div>
+                </div>
+            </div>
+
+            <div class="col-sm-6 col-md-3 col-lg-2">
+                <div class="list-menu">
+
+                    <h4>من نحن</h4>
+
+                    <ul class="list-unstyled">
+                        <li><a href="#">من نحن</a></li>
+                        <li><a href="#">Features item</a></li>
+                        <li><a href="#">Live streaming</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                    </ul>
+
+                </div>
+            </div>
+
+            <div class="col-sm-6 col-md-3 col-lg-2">
+                <div class="list-menu">
+
+                    <h4>الخدمات</h4>
+
+                    <ul class="list-unstyled">
+                        <li><a href="#">About us</a></li>
+                        <li><a href="#">Features item</a></li>
+                        <li><a href="#">Live streaming</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                    </ul>
+
+                </div>
+            </div>
+
+            <div class="col-sm-6 col-md-3 col-lg-2">
+                <div class="list-menu">
+
+                    <h4>المميزات</h4>
+
+                    <ul class="list-unstyled">
+                        <li><a href="#">faq</a></li>
+                        <li><a href="#">Editor help</a></li>
+                        <li><a href="#">Contact us</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                    </ul>
+
+                </div>
+            </div>
+
+            <div class="col-sm-6 col-md-3 col-lg-2">
+                <div class="list-menu">
+
+                    <h4>أسئلة شائعة</h4>
+
+                    <ul class="list-unstyled">
+                        <li><a href="#">About us</a></li>
+                        <li><a href="#">Features item</a></li>
+                        <li><a href="#">Live streaming</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                    </ul>
+
+                </div>
+            </div>
+
         </div>
-
-        <div class="col-sm-6 col-md-3 col-lg-2">
-          <div class="list-menu">
-
-            <h4>من نحن</h4>
-
-            <ul class="list-unstyled">
-              <li><a href="#">من نحن</a></li>
-              <li><a href="#">Features item</a></li>
-              <li><a href="#">Live streaming</a></li>
-              <li><a href="#">Privacy Policy</a></li>
-            </ul>
-
-          </div>
-        </div>
-
-        <div class="col-sm-6 col-md-3 col-lg-2">
-          <div class="list-menu">
-
-            <h4>الخدمات</h4>
-
-            <ul class="list-unstyled">
-              <li><a href="#">About us</a></li>
-              <li><a href="#">Features item</a></li>
-              <li><a href="#">Live streaming</a></li>
-              <li><a href="#">Privacy Policy</a></li>
-            </ul>
-
-          </div>
-        </div>
-
-        <div class="col-sm-6 col-md-3 col-lg-2">
-          <div class="list-menu">
-
-            <h4>المميزات</h4>
-
-            <ul class="list-unstyled">
-              <li><a href="#">faq</a></li>
-              <li><a href="#">Editor help</a></li>
-              <li><a href="#">Contact us</a></li>
-              <li><a href="#">Privacy Policy</a></li>
-            </ul>
-
-          </div>
-        </div>
-
-        <div class="col-sm-6 col-md-3 col-lg-2">
-          <div class="list-menu">
-
-            <h4>أسئلة شائعة</h4>
-
-            <ul class="list-unstyled">
-              <li><a href="#">About us</a></li>
-              <li><a href="#">Features item</a></li>
-              <li><a href="#">Live streaming</a></li>
-              <li><a href="#">Privacy Policy</a></li>
-            </ul>
-
-          </div>
-        </div>
-
-      </div>
     </div>
 
     <div class="copyrights">
-      <div class="container">
-        <p>&copy; Copyrights eStartup. All rights reserved.</p>
-        <div class="credits">
-          <!--
-          All the links in the footer should remain intact.
-          You can delete the links only if you purchased the pro version.
-          Licensing information: https://bootstrapmade.com/license/
-          Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=eStartup
-        -->
-          Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+        <div class="container">
+            <p>&copy; Copyrights eStartup. All rights reserved.</p>
+            <div class="credits">
+                <!--
+                All the links in the footer should remain intact.
+                You can delete the links only if you purchased the pro version.
+                Licensing information: https://bootstrapmade.com/license/
+                Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=eStartup
+              -->
+                Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+            </div>
         </div>
-      </div>
     </div>
 
-  </footer><!-- End  Footer -->
+</footer><!-- End  Footer -->
 
-  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+<a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
 
+<!-- Vendor JS Files -->
+<script src="{% static 'assets/vendor/jquery/jquery.min.js' %}"></script>
+<script src="{% static 'assets/vendor/bootstrap/js/bootstrap.bundle.min.js' %}"></script>
+<script src="{% static 'assets/vendor/jquery.easing/jquery.easing.min.js' %}"></script>
+<script src="{% static 'assets/vendor/php-email-form/validate.js' %}"></script>
+<script src="{% static 'assets/vendor/modal-video/js/modal-video.min.js' %}"></script>
+<script src="{% static 'assets/vendor/owl.carousel/owl.carousel.min.js' %}"></script>
+<script src="{% static 'assets/vendor/superfish/superfish.min.js' %}"></script>
+<script src="{% static 'assets/vendor/hoverIntent/hoverIntent.js' %}"></script>
+<script src="{% static 'assets/vendor/aos/aos.js' %}"></script>
+<script src="{% static 'js/lity.js' %}"></script>
 
+<!-- Template Main JS File -->
+<script src="{% static 'assets/js/main.js' %}"></script>
 
 </body>
 
