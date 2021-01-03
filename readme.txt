@@ -5,3 +5,5 @@ continue app gallery
 
 !important
 copy new css to old css
+
+start project again from start
