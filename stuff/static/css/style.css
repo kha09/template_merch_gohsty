@@ -1514,7 +1514,10 @@ body.mobile-nav-active #mobile-nav-toggle i {
 --------------------------------------------------------------*/
 .footer {
     background: #2a2c30;
-    padding-top: 50px;
+    padding-top: 70px;
+    padding-right: 100px;
+    padding-bottom: 70px;
+    margin-bottom: 70px;
 }
 
 .footer .footer-logo .navbar-brand {
