@@ -11,3 +11,7 @@ start project again from start
 merged to origin
 
 change svg pics
+
+need to change main sentence
+
+fix video ad
